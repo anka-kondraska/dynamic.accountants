@@ -1,3 +1,25 @@
 .current {
-    collor: green;
+    color: green;
+}
+.menu {
+    color: white;
+}
+@keyframes myfirst {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+
+.index-page {
+    background: url(/../assets/img/clouds-conifers-country.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // animation: myfirst 5s ;
+    transition: background 5000ms ease-in 400ms;
+}
+
+.header {
+    position: relative;
+    text-align: center;
 }
