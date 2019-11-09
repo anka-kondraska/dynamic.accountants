@@ -1,11 +1,13 @@
 <nav class="nav-wrapper">
   
   {% for item in site.data.navigation %}
-  <ul>
-    <li class="list-item"><a href="{{ item.link }}" class="nav-item">
-      {{ item.name }}
-    </a></li>
-  </ul>
+ <!--  <ul> -->
+    <!-- <li class="list-item"> -->
+        <a href="{{ item.link }}" class="nav-item">
+          {{ item.name }}
+        </a>
+    <!-- </li> -->
+  <!-- </ul> -->
   {% endfor %}
  
 </nav>

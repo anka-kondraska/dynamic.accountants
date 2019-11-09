@@ -1,0 +1,28 @@
+# This file contains meta data for various social media sites
+email:
+  id: 'anka.kondraska@gmail.com'
+  href: 'mailto:'
+  name: 'Email'
+  fa-icon: 'fa-envelope'
+
+twitter:
+  id: 'gotpicklez'
+  href: 'https://www.twitter.com/'
+  name: 'Twitter'
+  fa-icon: 'fa-twitter'
+
+github:
+  id: 'anka-kondraska'
+  href: 'https://github.com/'
+  name: 'GitHub'
+  fa-icon: 'fa-github'
+
+linkedin:
+  id: 'in/ankakondraska/'
+  href: 'https://linkedin.com/'
+  name: 'LinkedIn'
+  fa-icon: 'fa-linkedin'
+
+download:
+  name: 'Download'
+  fa-icon: 'fa-file-download'

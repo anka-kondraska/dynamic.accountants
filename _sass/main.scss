@@ -1,6 +1,12 @@
 // Google font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Teko:300,400&display=swap');
 
+@import url('https://scss/fontawesome.scss');
+@import url('https://./fontawesome/scss/solid.scss');
+@import url('https://./fontawesome/scss/brands.scss');
+
+
+
 // Font Variables
 $teko-font: 'Teko', sans-serif;
 $open-font: 'Open Sans', sans-serif;
@@ -15,19 +21,21 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .nav-item {
-    color: ivory;
-    font-family: $teko-font;
-    font-weight: lighter;
-    font-size: 35px;
-    text-decoration: none;
-    margin-bottom: 8px;
-    border-bottom-width: 1px;
-   border-bottom-color: rgba(144,143,143,1);
-   border-bottom-style: ridge;
+  color: white;
+  font-family: $teko-font;
+  font-weight: lighter;
+  font-size: 35px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(144,143,143,1);
+  border-bottom-style: ridge;
+  margin-left: 35px;
+
    &:hover,
    &:active {
-      border-bottom-color: White;
-    }
+    border-bottom-color: White;
+  }
 }
 
 @keyframes myfirst {
@@ -36,13 +44,20 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .index-page {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/../assets/img/clouds-conifers-country.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    // animation: myfirst 5s ;
-    transition: background 5000ms ease-in 400ms;
+    background-image: 
+      linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), 
+      url(/../assets/img/clouds-conifers-country.jpg);
+    background-repeat: no-repeat;
+      background-position: center center; 
+      background-attachment: fixed;
+          background-size: cover;
+
+    //-webkit-background-size: cover;
+    //-moz-background-size: cover;
+    //-o-background-size: cover;
+    animation: myfirst 7s ;
+    //transition: background 5000ms ease-in 400ms;
+    //transition: background-image 5000ms ease-in-out
 }
 
 .header {
@@ -51,7 +66,63 @@ $open-font: 'Open Sans', sans-serif;
 
 .header-wrap {
   border-bottom-width: 1px;
-   border-bottom-color: rgba(144,143,143,1);
-   border-bottom-style: ridge;
-       margin-bottom: 8px;
+  border-bottom-color: rgba(144,143,143,1);
+  border-bottom-style: ridge;
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+}
+
+.index-header {
+  color: white;
+  font-family: $open-font;
+  font-weight: lighter;
+  padding: 24px 4px 0 4px;
+  margin: 0px;
+  //width: 40%;
+}
+
+.index-p {
+  color: white;
+  font-family: $open-font;
+  font-weight: lighter;
+  text-align: left;
+  padding: 24px 4px 24px 4px;
+  margin: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(144,143,143,1);
+  border-bottom-style: ridge;
+  //width: 40%;
+  
+}
+
+/* Style all font awesome icons */.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
 }

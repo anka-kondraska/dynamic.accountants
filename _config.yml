@@ -19,3 +19,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# Pagination configuration (used by the `blog` layout)
+paginate:              5
+paginate_path:         /page-:num/
