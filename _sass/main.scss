@@ -12,9 +12,6 @@ $open-font: 'Open Sans', sans-serif;
 }
 .list-item {
    list-style-type: none;
-   //border-bottom-width: 1px;
-   //border-bottom-color: rgb(211,211,211);
-   //border-bottom-style: solid;
 }
 
 .nav-item {
@@ -27,6 +24,10 @@ $open-font: 'Open Sans', sans-serif;
     border-bottom-width: 2px;
    border-bottom-color: rgba(144,143,143,1);
    border-bottom-style: solid;
+   &:hover {
+      border-bottom-color: White;
+      color: rgba(144,143,143,1);
+    }
 }
 
 @keyframes myfirst {
