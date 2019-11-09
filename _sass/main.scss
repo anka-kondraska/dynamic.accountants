@@ -15,18 +15,18 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .nav-item {
-    color: white;
+    color: ivory;
     font-family: $teko-font;
     font-weight: lighter;
     font-size: 35px;
     text-decoration: none;
     margin-bottom: 8px;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
    border-bottom-color: rgba(144,143,143,1);
-   border-bottom-style: solid;
-   &:hover {
+   border-bottom-style: ridge;
+   &:hover,
+   &:active {
       border-bottom-color: White;
-      color: rgba(144,143,143,1);
     }
 }
 
@@ -36,7 +36,7 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .index-page {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/../assets/img/clouds-conifers-country.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/../assets/img/clouds-conifers-country.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,6 +46,12 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .header {
-    //position: relative;
     text-align: center;
+}
+
+.header-wrap {
+  border-bottom-width: 1px;
+   border-bottom-color: rgba(144,143,143,1);
+   border-bottom-style: ridge;
+       margin-bottom: 8px;
 }
