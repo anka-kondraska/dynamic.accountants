@@ -23,3 +23,9 @@ defaults:
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
 paginate_path:         /page-:num/
+
+plugins:
+  - jekyll-font-awesome-sass
+
+font-awesome:
+  assets: true

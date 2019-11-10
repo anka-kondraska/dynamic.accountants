@@ -1,6 +1,8 @@
 // Google font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Teko:300,400&display=swap');
 
+@import 'font-awesome';
+
 // Font Variables
 $teko-font: 'Teko', sans-serif;
 $open-font: 'Open Sans', sans-serif;
@@ -66,6 +68,11 @@ $open-font: 'Open Sans', sans-serif;
   padding-bottom: 20px;
 }
 
+.index-wrapper {
+  margin: auto;
+  width: 60%;
+}
+
 .index-header {
   color: white;
   font-family: $open-font;
@@ -87,7 +94,9 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 /* Style all font awesome icons */
-.fa {
+.fa,
+.fab,
+.far {
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -113,5 +122,36 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .fa-linkedin {
+  color: white;
+}
+
+.fa-fire {
+  color: red;
+  padding: 0px;
+}
+
+.footer-style {
+  color: ivory;
+  font-family: $teko-font;
+  font-weight: lighter;
+    font-size: 24px;
+    bottom: 0;
+    position: absolute;
+    width: 100%
+
+}
+
+.social-wrapper {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.post-header {
+  color: white;
+  text-decoration: none;
+}
+
+.post-content {
   color: white;
 }

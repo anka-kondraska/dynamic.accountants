@@ -23,4 +23,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
+  gem "font-awesome-sass"
+  gem "jekyll-font-awesome-sass"
 end
