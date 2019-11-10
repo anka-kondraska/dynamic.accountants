@@ -48,6 +48,8 @@ $open-font: 'Open Sans', sans-serif;
     background-attachment: fixed;
     background-size: cover;
     animation: myfirst 7s ;
+    position: relative;
+    padding-bottom:100px;
 
     //-webkit-background-size: cover;
     //-moz-background-size: cover;
@@ -131,13 +133,12 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .footer-style {
-  color: ivory;
   font-family: $teko-font;
   font-weight: lighter;
     font-size: 24px;
     bottom: 0;
+    width: 100%;
     position: absolute;
-    width: 100%
 
 }
 
@@ -162,16 +163,10 @@ $open-font: 'Open Sans', sans-serif;
 
 .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 43.25%;
   height: 0;
   overflow: hidden;
   max-width: 100%;
+
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}

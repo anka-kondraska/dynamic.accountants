@@ -3,12 +3,11 @@ layout: default
 ---
 <h1 class="post-header">{{ page.title }}</h1>
 
-<p>
+<p style="color:white;">
   {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}
     - <a href="{{ author.url }}">{{ author.name }}</a>
   {% endif %}
 </p>
-
-{{ content }}
+<section style="color:white;margin-bottom:24px;">{{ content }}</section>
