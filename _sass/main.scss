@@ -48,8 +48,7 @@ $open-font: 'Open Sans', sans-serif;
     background-attachment: fixed;
     background-size: cover;
     animation: myfirst 7s ;
-    position: relative;
-    padding-bottom:100px;
+  
 
     //-webkit-background-size: cover;
     //-moz-background-size: cover;
@@ -73,6 +72,7 @@ $open-font: 'Open Sans', sans-serif;
 .index-wrapper {
   margin: auto;
   width: 60%;
+  position: relative;
 }
 
 .index-header {
@@ -133,6 +133,7 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .footer-style {
+color: ivory;
   font-family: $teko-font;
   font-weight: lighter;
     font-size: 24px;
