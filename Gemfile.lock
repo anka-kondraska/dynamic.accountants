@@ -98,7 +98,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-sass
+  font-awesome-sass (~> 5.11.2)
   jekyll
   jekyll-avatar
   jekyll-default-layout
