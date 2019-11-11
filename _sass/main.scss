@@ -47,7 +47,9 @@ $open-font: 'Open Sans', sans-serif;
     background-position: center center; 
     background-attachment: fixed;
     background-size: cover;
-    animation: myfirst 7s ;
+    position: relative;
+    //animation: myfirst 7s ;
+    height: 100%;
   
 
     //-webkit-background-size: cover;
@@ -73,6 +75,7 @@ $open-font: 'Open Sans', sans-serif;
   margin: auto;
   width: 60%;
   position: relative;
+  padding-bottom: 80px;
 }
 
 .index-header {
@@ -137,9 +140,10 @@ color: ivory;
   font-family: $teko-font;
   font-weight: lighter;
     font-size: 24px;
-    bottom: 0;
+    //bottom: 0;
     width: 100%;
     position: absolute;
+    height: 80px;
 
 }
 
