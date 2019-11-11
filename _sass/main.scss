@@ -9,11 +9,11 @@ $open-font: 'Open Sans', sans-serif;
 
 
 .nav-wrapper {
-    text-align: center;
+  text-align: center;
     
 }
 .list-item {
-   list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-item {
@@ -28,8 +28,8 @@ $open-font: 'Open Sans', sans-serif;
   border-bottom-style: ridge;
   margin-left: 35px;
 
-   &:hover,
-   &:active {
+  &:hover,
+  &:active {
     border-bottom-color: White;
   }
 }
@@ -60,7 +60,7 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .header-wrap {
@@ -98,6 +98,44 @@ $open-font: 'Open Sans', sans-serif;
   border-bottom-style: ridge;  
 }
 
+.footer-style {
+  color: ivory;
+  font-family: $teko-font;
+  font-weight: lighter;
+  font-size: 24px;
+  //bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 80px;
+
+}
+
+.social-wrapper {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.post-header {
+  color: white;
+  text-decoration: none;
+}
+
+.post-content {
+  color: white;
+}
+
+/* Nathan Lam
+   June 2, 2017
+   Add this css for responsive embedded videos in your .css file. */
+.embed-container {
+  position: relative;
+  padding-bottom: 43.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
 /* Style all font awesome icons */
 .fa,
 .fab,
@@ -109,7 +147,6 @@ $open-font: 'Open Sans', sans-serif;
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -133,45 +170,5 @@ $open-font: 'Open Sans', sans-serif;
 .fa-fire {
   color: red;
   padding: 0px;
-}
-
-.footer-style {
-color: ivory;
-  font-family: $teko-font;
-  font-weight: lighter;
-    font-size: 24px;
-    //bottom: 0;
-    width: 100%;
-    position: absolute;
-    height: 80px;
-
-}
-
-.social-wrapper {
-  margin: auto;
-  width: 60%;
-  text-align: center;
-}
-
-.post-header {
-  color: white;
-  text-decoration: none;
-}
-
-.post-content {
-  color: white;
-}
-
-/* Nathan Lam
-   June 2, 2017
-   Add this css for responsive embedded videos in your .css file. */
-
-.embed-container {
-  position: relative;
-  padding-bottom: 43.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-
 }
 
