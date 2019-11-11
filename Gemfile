@@ -23,6 +23,4 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
-  gem "font-awesome-sass", '~> 5.11.2'
-  gem "jekyll-font-awesome-sass"
 end
