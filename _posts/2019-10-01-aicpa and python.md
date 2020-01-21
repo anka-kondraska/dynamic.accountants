@@ -1,5 +1,6 @@
 ---
 layout: post
+title: AICPA and Python
 ---
 An apple is a sweet, edible fruit produced by an apple tree.
 

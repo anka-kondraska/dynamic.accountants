@@ -7,7 +7,7 @@ title: Blog
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-header">
-      <h2><i class="fa fa-wind"></i><a href="{{ post.url }}" class="post-header">{{ post.title }}</a></h2>
+      <h2><i class="fa fa-wind"></i><a href="{{ post.url }}" class="post-header">{{ post.title }}</a> - <span class="date">{{ post.date | date_to_string: "ordinal", "US" }}</span></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}
