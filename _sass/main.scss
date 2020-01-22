@@ -5,7 +5,6 @@
 $teko-font: 'Teko', sans-serif;
 $open-font: 'Open Sans', sans-serif;
 
-
 .nav-wrapper {
   text-align: center;
     
@@ -45,9 +44,11 @@ $open-font: 'Open Sans', sans-serif;
     background-position: center center; 
     background-attachment: fixed;
     background-size: cover;
-    position: relative;
-    //animation: myfirst 7s ;
-    height: 100vh;
+    // position: relative;
+    // animation: myfirst 7s ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   
 
     //-webkit-background-size: cover;
@@ -72,8 +73,9 @@ $open-font: 'Open Sans', sans-serif;
 .index-wrapper {
   margin: auto;
   width: 60%;
-  position: relative;
-  padding-bottom: 80px;
+  // position: relative;
+  // padding-bottom: 80px;
+  flex: 1 0 auto;
 }
 
 .index-header {
@@ -101,10 +103,11 @@ $open-font: 'Open Sans', sans-serif;
   font-family: $teko-font;
   font-weight: lighter;
   font-size: 24px;
-  //bottom: 0;
+  // bottom: 0;
   width: 100%;
-  position: absolute;
-  height: 80px;
+  // position: absolute;
+  // height: 80px;
+  flex-shrink: 0;
 
 }
 
@@ -117,8 +120,8 @@ $open-font: 'Open Sans', sans-serif;
 .post-header {
   font-family: $teko-font;
   color: white;
-  //text-decoration: none;
-    list-style-type: none;
+  // text-decoration: none;
+  list-style-type: none;
 
 
 }
@@ -131,7 +134,7 @@ $open-font: 'Open Sans', sans-serif;
 }
 
 .post-list {
-  padding-bottom:80px;
+  // padding-bottom:80px;
 }
 
 /* Style all font awesome icons */

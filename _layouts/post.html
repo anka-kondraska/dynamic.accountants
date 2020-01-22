@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
+<div class="index-wrapper">
 <h1 class="post-header">{{ page.title }}</h1>
-
 <p style="color:white;">
   {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'short_name', page.author | first %}
@@ -11,3 +11,4 @@ layout: default
   {% endif %}
 </p>
 <section style="color:white;margin-bottom:24px;position: relative;">{{ content }}</section>
+</div>
