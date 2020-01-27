@@ -2,13 +2,18 @@
 layout: default
 title: Blog
 ---
-<h1 class="post-header">Latest Posts</h1>
-
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li class="post-header">
-      <h2><i class="fa fa-wind"></i><a href="{{ post.url }}" class="post-header">{{ post.title }}</a> - <span class="date">{{ post.date | date_to_string: "ordinal", "US" }}</span></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<div class="index-wrapper">
+    <h1 class="post-header">Latest Posts</h1>
+        <ul>
+          {% for post in site.posts %}
+            <li class="post-header">
+              <h2>
+                <i class="fa fa-wind"></i>
+                <a href="{{ post.url }}" class="post-title">{{ post.title }}</a> - 
+                <span>{{ post.date | date_to_string: "ordinal", "US" }}</span>
+              </h2>
+                {{ post.excerpt }}
+            </li>
+          {% endfor %}
+        </ul>
+</div>

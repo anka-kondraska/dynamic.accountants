@@ -44,18 +44,9 @@ $open-font: 'Open Sans', sans-serif;
     background-position: center center; 
     background-attachment: fixed;
     background-size: cover;
-    // position: relative;
-    // animation: myfirst 7s ;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-  
-
-    //-webkit-background-size: cover;
-    //-moz-background-size: cover;
-    //-o-background-size: cover;
-    //transition: background 5000ms ease-in 400ms;
-    //transition: background-image 5000ms ease-in-out
 }
 
 .header {
@@ -73,8 +64,6 @@ $open-font: 'Open Sans', sans-serif;
 .index-wrapper {
   margin: auto;
   width: 60%;
-  // position: relative;
-  // padding-bottom: 80px;
   flex: 1 0 auto;
 }
 
@@ -103,10 +92,7 @@ $open-font: 'Open Sans', sans-serif;
   font-family: $teko-font;
   font-weight: lighter;
   font-size: 24px;
-  // bottom: 0;
   width: 100%;
-  // position: absolute;
-  // height: 80px;
   flex-shrink: 0;
 
 }
@@ -120,21 +106,22 @@ $open-font: 'Open Sans', sans-serif;
 .post-header {
   font-family: $teko-font;
   color: white;
-  // text-decoration: none;
   list-style-type: none;
+}
 
-
+.post-title {
+  font-family: $teko-font;
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: rgba(25, 181, 254, 1);
+  }
 }
 
 .post-content {
   font-family: $teko-font;
   color: white;
   margin-left: 8px;
-
-}
-
-.post-list {
-  // padding-bottom:80px;
 }
 
 /* Style all font awesome icons */
@@ -149,8 +136,8 @@ $open-font: 'Open Sans', sans-serif;
   text-decoration: none;
 }
 
-.fa:hover {
-  opacity: 0.7;
+.fab:hover, .far:hover  {
+  color: rgba(25, 181, 254, 1);
 }
 
 .fa-twitter {
