@@ -12,7 +12,9 @@ title: Blog
                 <a href="{{ post.url }}" class="post-title">{{ post.title }}</a> - 
                 <span>{{ post.date | date_to_string: "ordinal", "US" }}</span>
               </h2>
+              <div class="post-excerpt">
                 {{ post.excerpt }}
+              </div>
             </li>
           {% endfor %}
         </ul>

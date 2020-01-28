@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="index-wrapper">
-<h1 class="post-header">{{ page.title }}</h1>
-<p style="color:white;">
+<h1 class="blog-post-title">{{ page.title }}</h1>
+<p class="blog-post-title">
   {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'short_name', page.author | first %}
   {% if author %}

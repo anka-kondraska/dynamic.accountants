@@ -112,10 +112,36 @@ $open-font: 'Open Sans', sans-serif;
 .post-title {
   font-family: $teko-font;
   color: white;
-  text-decoration: none;
+  //text-decoration: none;
   &:hover {
     color: rgba(25, 181, 254, 1);
   }
+}
+
+.post-excerpt {
+  font-family: $teko-font;
+  color: white;
+  font-size: 18px;
+  
+  img {
+    padding: 8px;
+    width: 100%;
+  }
+
+ a:link, a:visited {
+    color: white;
+
+    &:hover {
+      color: rgba(25, 181, 254, 1);
+    }
+  }
+}
+
+
+.blog-post-title {
+  font-family: $open-font;
+  font-weight: lighter;
+  color: white;
 }
 
 .post-content {
@@ -135,6 +161,11 @@ $open-font: 'Open Sans', sans-serif;
 
   ol ul {
   list-style-type: disc;
+  }
+
+  img {
+  padding: 8px;
+  width: 100%;
   }
 }
 
