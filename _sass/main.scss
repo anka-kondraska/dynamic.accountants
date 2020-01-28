@@ -111,10 +111,14 @@ $open-font: 'Open Sans', sans-serif;
 
 .post-title {
   font-family: $teko-font;
-  color: white;
+  //color: white;
+      color: rgba(25, 181, 254, 1);
+
 
   &:hover {
-    color: rgba(25, 181, 254, 1);
+    //color: rgba(25, 181, 254, 1);
+    color: white;
+
   }
 }
 
@@ -129,10 +133,13 @@ $open-font: 'Open Sans', sans-serif;
   }
 
  a:link, a:visited {
-    color: white;
+    //color: white;
+          color: rgba(25, 181, 254, 1);
+
 
     &:hover {
-      color: rgba(25, 181, 254, 1);
+      //color: rgba(25, 181, 254, 1);
+      color: white;
     }
   }
 }
@@ -152,10 +159,14 @@ $open-font: 'Open Sans', sans-serif;
   font-size: 20px;
 
   a:link, a:visited {
-    color: white;
+    //color: white;
+          color: rgba(25, 181, 254, 1);
+
 
     &:hover {
-      color: rgba(25, 181, 254, 1);
+      //color: rgba(25, 181, 254, 1);
+          color: white;
+
     }
   }
 
