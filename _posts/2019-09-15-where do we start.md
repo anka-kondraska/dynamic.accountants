@@ -13,9 +13,9 @@ an environment that can run your python code online. Both have low thresholds of
 According to [Stackoverflow Developer Survey from 2019](https://insights.stackoverflow.com/survey/2019){:target="_blank"} Python is the fastest-growing programming language and the second most loved. 
 ![Stackoverflow Most Loved 2019 Screenshot](/assets/img/stackoverflow_most_loved_2019.png)
 
-The hardest thing about getting started is making sure your environment is set up correctly, especially if you are looking to run your Jupyter Notebook locally. However, there are many websites and in browser options making it significantly easier. 
+The hardest thing about getting started is making sure your environment is set up correctly, especially if you are looking to run your Jupyter Notebook locally. However, there are many websites and in-browser options making it significantly easier. 
 
-### Running Jupyter in The Cloud – Easy Option - No Installations Required
+### <i class="fa fa-wind"></i> Running Jupyter in The Cloud – Easy Option - No Installations Required
 1.  Google Colab - In your browser open [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=wRH3FBu-Hqau){:target="_blank"}
     * Colaboratory is a Jupyter environment running entirely in your browser
     * It is free and allows you to store your `.ipynb` (Jupyter) files in your Drive or GitHub
@@ -30,7 +30,7 @@ The hardest thing about getting started is making sure your environment is set u
 
 List of Services that run Jupyter Notebook in the Cloud - [Data School](https://www.dataschool.io/cloud-services-for-jupyter-notebook/)
 
-### Running Jupyter on Your Computer
+### <i class="fa fa-wind"></i> Running Jupyter on Your Computer
 
 To run Jupyter on your computer, you will need to locate your `Terminal` on Mac 
 or `Command Prompt` on Windows machine first. Then you'll need:
