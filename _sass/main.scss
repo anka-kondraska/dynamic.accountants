@@ -27,7 +27,7 @@ $open-font: 'Open Sans', sans-serif;
 
   &:hover,
   &:active {
-    border-bottom-color: White;
+    border-bottom-color: white;
   }
 }
 
@@ -63,7 +63,7 @@ $open-font: 'Open Sans', sans-serif;
 
 .index-wrapper {
   margin: auto;
-  width: 60%;
+  width: 70%;
   flex: 1 0 auto;
 }
 
@@ -112,7 +112,7 @@ $open-font: 'Open Sans', sans-serif;
 .post-title {
   font-family: $teko-font;
   color: white;
-  //text-decoration: none;
+
   &:hover {
     color: rgba(25, 181, 254, 1);
   }
@@ -124,7 +124,7 @@ $open-font: 'Open Sans', sans-serif;
   font-size: 18px;
   
   img {
-    padding: 8px;
+    padding-top: 8px;
     width: 100%;
   }
 
@@ -164,8 +164,8 @@ $open-font: 'Open Sans', sans-serif;
   }
 
   img {
-  padding: 8px;
-  width: 100%;
+    padding-top: 8px;
+    width: 100%;
   }
 }
 
@@ -175,7 +175,6 @@ $open-font: 'Open Sans', sans-serif;
 .far,
 .fas {
   padding: 20px;
-  //font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;

@@ -3,15 +3,15 @@ layout: post
 title: Where Do We Start?
 excerpt_separator: <!--more-->
 ---
-Python is the fastest-growing programming language and the second most loved, according to [Stackoverflow Developer Survey from 2019](https://insights.stackoverflow.com/survey/2019){:target="_blank"}.
-![Stackoverflow Most Loved 2019 Screenshot](/assets/img/stackoverflow_most_loved_2019.png)
-
 For me, the two most important tools in my accounting-related programming work 
 are [Python](https://www.python.org){:target="_blank"} and [Jupyter Notebook](https://www.jupyter.org){:target="_blank"}. 
  Both of these are the foundational tools of data analytics, data science and scientific analysis.
 [Python](https://www.python.org/about/gettingstarted/){:target="_blank"} is one of the most popular programming languages and Jupyter Notebook is 
 an environment that can run your python code online. Both have low thresholds of entry and are very powerful.
 <!--more-->
+
+According to [Stackoverflow Developer Survey from 2019](https://insights.stackoverflow.com/survey/2019){:target="_blank"} Python is the fastest-growing programming language and the second most loved. 
+![Stackoverflow Most Loved 2019 Screenshot](/assets/img/stackoverflow_most_loved_2019.png)
 
 The hardest thing about getting started is making sure your environment is set up correctly, especially if you are looking to run your Jupyter Notebook locally. However, there are many websites and in browser options making it significantly easier. 
 
@@ -36,7 +36,7 @@ To run Jupyter on your computer, you will need to locate your `Terminal` on Mac
 or `Command Prompt` on Windows machine first. Then you'll need:
 1. Python
     * Mac
-        + Mac has Python pre-installed. There is no need to download
+        + Mac has Python pre-installed - there is no need to download
         + [Anaconda for Mac Download Tutorial](https://docs.anaconda.com/anaconda/install/mac-os/)
     * Windows
         + [Microsoft Python Download Tutorial](https://docs.microsoft.com/en-us/windows/python/beginners){:target="_blank"}
