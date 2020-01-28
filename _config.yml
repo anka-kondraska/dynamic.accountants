@@ -20,6 +20,9 @@ defaults:
     values:
       layout: "default"
 
+plugins:
+  - jekyll-gist
+
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
 paginate_path:         /page-:num/
