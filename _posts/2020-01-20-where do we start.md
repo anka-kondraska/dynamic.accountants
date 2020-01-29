@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Where Do We Start?
+tags: technical, python, jupyter
 excerpt_separator: <!--more-->
 ---
 For me, the two most important tools in my accounting-related programming work 

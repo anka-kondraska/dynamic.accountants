@@ -1,14 +1,10 @@
 ---
 layout: post
-title: AICPA and Python
-youtubeId: BnkRF-pV11Q
+title: AICPA and Dynamic Audit Solution
+tags: AICPA, audit, digital innovation, DAS, audit technology
+excerpt_separator: <!--more-->
 ---
-An apple is a sweet, edible fruit produced by an apple tree.
 
-Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.
-
-{% include youtubePlayer.html id=page.youtubeId %}
+In 2018 [AICPA committed to Dynamic Audit Solution (DAS)](https://www.aicpa.org/press/pressreleases/2018/aicpa-leading-cpa-firms-commit-to-dynamic-audit-solution-initiative.html?cid=referral:article:AICPAInsightsDASblog:pressrelease:aicpa&utm_medium=referral&utm_source=article&utm_campaign=AICPAInsightsDASblog&utm_content=pressrelease)
+![AICPA DAS Timeline](/assets/img/aicpa_das_timeline.png)
+![AICPA DAS Overview](/assets/files/dynamic-audit-solution-overview-cpacom.pdf))
