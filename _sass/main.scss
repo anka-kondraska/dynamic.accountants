@@ -139,7 +139,6 @@ $open-font: 'Open Sans', sans-serif;
   }
 }
 
-
 .blog-post-title {
   font-family: $open-font;
   font-weight: lighter;
@@ -170,6 +169,11 @@ $open-font: 'Open Sans', sans-serif;
   img {
     padding-top: 8px;
     width: 100%;
+  }
+
+  blockquote {
+    background-color: rgba(211,211,211,0.3);
+    text-align: center;
   }
 }
 
