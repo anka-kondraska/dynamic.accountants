@@ -15,7 +15,7 @@ Simply put it's an application developed on the CaseWare Cloud platform that wil
 This initiative has been executed swiftly and so far with great success.
 ![AICPA DAS Timeline](/assets/img/aicpa_das_timeline.png)
 
-I do wonder whether this platform will allow implementation of continuous auditing model.
+I do wonder whether this platform will have the capability for continuous auditing.
 
 ### <i class="fa fa-wind"></i> Additional Resources
 * [AICPA DAS Overview.pdf](/assets/files/dynamic-audit-solution-overview-cpacom.pdf){:target="_blank"}
