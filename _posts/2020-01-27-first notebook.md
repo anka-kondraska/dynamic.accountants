@@ -4,7 +4,7 @@ title: First Jupyter Notebook - Cleaning Data with pandas
 tags: cleaning data, pandas, python
 excerpt_separator: <!--more-->
 ---
-Here is a part one of cleaning [financial_sample.csv](/assets/files/financial_sample.csv){:target="_blank"} with `Python` `pandas` package.
+Here is part one of cleaning [financial_sample.csv](/assets/files/financial_sample.csv){:target="_blank"} with `Python` `pandas` package.
 <!--more-->
 
 ### <i class="fa fa-wind"></i> Let's clean it!
