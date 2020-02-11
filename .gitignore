@@ -5,4 +5,5 @@ _site*
 .tweet-cache
 *.gem
 *.xlsx
+*.ipynb_checkpoints*
 
