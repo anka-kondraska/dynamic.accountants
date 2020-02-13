@@ -26,6 +26,7 @@ tutorial](https://docs.microsoft.com/en-us/power-bi/sample-financial-download){:
 * Make sure both are saved in the same folder on your computer
 * Then proceed to [Google's Colab](https://colab.research.google.com/notebooks/welcome.ipynb){:target="_blank"} and under `File` > `Upload notebook`. After the new notebook is uploaded, there will be a `File` icon on the left side of the screen. By clicking on it, you will be able to upload the csv file. It is only uploaded for the duration of your runtime/session on Colab. You can also upload both the notebook and csv file to your Google Drive and access them both through Colab. For the brave newbie, there is also `GitHub`
 * Once you have both files up and running on Colab, you can start going through it
+* There are instructions at the top of the notebook, on how to run each cell. The grayed out cells are markdown cells - there is no code to run there. When you click on a cell and it turns <span style="color:green">green</span>, that is your active code cell and you can run it.
 * For a quick intro you can visit [`intro_to_pandas` from Colab](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb){:target="_blank"}
 
 Your screen should look like this screenshot below, once you have [python_pandas_cleaning_data1.ipynb](/assets/files/python_pandas_cleaning_data1.ipynb){:target="_blank"} uploaded to Colab.
