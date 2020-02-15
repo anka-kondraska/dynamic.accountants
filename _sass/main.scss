@@ -221,37 +221,7 @@ $open-font: 'Open Sans', sans-serif;
   color: rgba(25, 181, 254, 1);
 }
 
-/* Style all font awesome icons 
-.fa,
-.fab,
-.far,
-.fas {
-  padding: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fab:hover, .far:hover  {
-  color: rgba(25, 181, 254, 1);
-}
-
-.fa-twitter {
-  color: white;
-}
-
-.fa-envelope {
-  color: white;
-}
-
-.fa-github {
-  color: white;
-}
-
-.fa-linkedin {
-  color: white;
-}
-*/
+// Font Awesome Icons
 .fa-fire {
   color: red;
   padding: 0px;
@@ -262,7 +232,6 @@ $open-font: 'Open Sans', sans-serif;
   padding: 0 8px 0 0;
 }
 
-/* Share bar */
 /* Share Bar */
 #share-bar {
     font-size: 20px;
@@ -278,6 +247,9 @@ $open-font: 'Open Sans', sans-serif;
 
 /* All buttons */
 .share-buttons {
+  a:link {
+    text-decoration: none;
+  }
 }
 
 /* Each button */
@@ -288,6 +260,7 @@ $open-font: 'Open Sans', sans-serif;
     border: 1px solid #D3D6D2;
     padding: 5px 10px 5px 10px;
 }
+
 .share-button:hover {
     opacity: 1;
     color: #ffffff;
@@ -356,4 +329,3 @@ $open-font: 'Open Sans', sans-serif;
 .fa-envelope:hover {
     background-color: #444444;
 }
-
